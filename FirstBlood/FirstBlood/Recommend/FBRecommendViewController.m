@@ -28,6 +28,7 @@
     NSLog(@"LJJ V1");
 
     NSLog(@"LZJ");
+    NSLog(@"ZZH - V1");
 }
 
 #pragma mark - private methods
