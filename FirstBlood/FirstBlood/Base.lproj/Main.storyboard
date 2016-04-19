@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1713" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Cfn-E3-kGX">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="rPa-3E-jRo">
+            <objects>
+                <tabBarController id="Cfn-E3-kGX" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="6IG-K6-8nd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="ic6-Jj-JiG" kind="relationship" relationship="viewControllers" id="4Ru-5j-4p0"/>
+                        <segue destination="Cws-5O-MG6" kind="relationship" relationship="viewControllers" id="ffQ-e1-kzW"/>
+                        <segue destination="ACI-Ls-Bv7" kind="relationship" relationship="viewControllers" id="tcv-NY-U1p"/>
+                        <segue destination="REI-to-GAl" kind="relationship" relationship="viewControllers" id="2hE-NN-onW"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZAu-Mt-n9U" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-174" y="-738"/>
+        </scene>
+        <!--推荐-->
+        <scene sceneID="kqa-Ww-9bz">
+            <objects>
+                <navigationController id="ic6-Jj-JiG" customClass="FBBaseNavigationController" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="推荐" image="reconmmend" selectedImage="reconmmendSelected" id="THw-y3-Odr"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="40U-tI-vfB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="I0V-vB-jWI" kind="relationship" relationship="rootViewController" id="ItN-Wy-LOl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mSk-bd-re0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1297.5" y="131.25"/>
+        </scene>
+        <!--探店-->
+        <scene sceneID="PbA-FB-QSt">
+            <objects>
+                <navigationController id="Cws-5O-MG6" customClass="FBBaseNavigationController" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="探店" image="SeekRestaurant" selectedImage="SeekRestaurantSelected" id="aQA-p7-4b9"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="EjE-ud-pnu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="tUf-5i-xac" kind="relationship" relationship="rootViewController" id="HL9-mH-sVa"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Mp-eN-oVp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-547.5" y="131.25"/>
+        </scene>
+        <!--专享-->
+        <scene sceneID="XYN-s4-DkJ">
+            <objects>
+                <navigationController id="ACI-Ls-Bv7" customClass="FBBaseNavigationController" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="专享" image="PrivateEnjoy" selectedImage="PrivateEnjoySelected" id="GAm-MI-RoA"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="KHq-xy-5sz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="14F-Jx-lpS" kind="relationship" relationship="rootViewController" id="9Y7-83-sHC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nxj-CX-4ig" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="172.5" y="131.25"/>
+        </scene>
+        <!--Recommend View Controller-->
+        <scene sceneID="Ap5-oc-y5U">
+            <objects>
+                <viewController id="I0V-vB-jWI" customClass="FBRecommendViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ppk-MW-fdc"/>
+                        <viewControllerLayoutGuide type="bottom" id="JQf-AJ-aWc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="86E-xH-2iH">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="FuX-Xy-DuV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="30F-cS-b1I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1297.5" y="807.75"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="C1R-x5-CnJ">
+            <objects>
+                <navigationController id="REI-to-GAl" customClass="FBBaseNavigationController" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" image="My" selectedImage="MySelected" id="5nw-NV-hEo"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Qe2-kq-0Po">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="SZO-av-wSz" kind="relationship" relationship="rootViewController" id="VG1-2D-e9p"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZHB-PN-uC6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="940.5" y="131.25"/>
+        </scene>
+        <!--探店-->
+        <scene sceneID="m75-of-RP0">
+            <objects>
+                <viewController id="tUf-5i-xac" customClass="FBSeekRestaurantViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IFV-KZ-lEr"/>
+                        <viewControllerLayoutGuide type="bottom" id="6Hp-rG-SNO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jNs-OA-FnX">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fEY-MX-qIT">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cute.gif" translatesAutoresizingMaskIntoConstraints="NO" id="1cH-5M-bFS">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="1cH-5M-bFS" firstAttribute="leading" secondItem="fEY-MX-qIT" secondAttribute="leading" id="90N-cR-549"/>
+                                    <constraint firstItem="1cH-5M-bFS" firstAttribute="top" secondItem="fEY-MX-qIT" secondAttribute="top" id="9ID-LC-Ljp"/>
+                                    <constraint firstAttribute="trailing" secondItem="1cH-5M-bFS" secondAttribute="trailing" id="W77-Dc-dNt"/>
+                                    <constraint firstAttribute="bottom" secondItem="1cH-5M-bFS" secondAttribute="bottom" id="Ye2-jj-dwS"/>
+                                    <constraint firstAttribute="height" constant="150" id="vGO-pQ-ysp"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="1cH-5M-bFS"/>
+                                    </mask>
+                                    <mask key="constraints">
+                                        <exclude reference="vGO-pQ-ysp"/>
+                                        <exclude reference="90N-cR-549"/>
+                                        <exclude reference="9ID-LC-Ljp"/>
+                                        <exclude reference="W77-Dc-dNt"/>
+                                        <exclude reference="Ye2-jj-dwS"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="subviews">
+                                        <include reference="1cH-5M-bFS"/>
+                                    </mask>
+                                    <mask key="constraints">
+                                        <include reference="vGO-pQ-ysp"/>
+                                        <include reference="90N-cR-549"/>
+                                        <include reference="9ID-LC-Ljp"/>
+                                        <include reference="W77-Dc-dNt"/>
+                                        <include reference="Ye2-jj-dwS"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fEY-MX-qIT" firstAttribute="top" secondItem="jNs-OA-FnX" secondAttribute="top" id="6o0-dA-4O6"/>
+                            <constraint firstItem="fEY-MX-qIT" firstAttribute="leading" secondItem="jNs-OA-FnX" secondAttribute="leading" constant="100" id="D1S-gZ-h6r"/>
+                            <constraint firstAttribute="trailing" secondItem="fEY-MX-qIT" secondAttribute="trailing" constant="80" id="Fux-LD-8cn"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="fEY-MX-qIT"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="6o0-dA-4O6"/>
+                                <exclude reference="D1S-gZ-h6r"/>
+                                <exclude reference="Fux-LD-8cn"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="fEY-MX-qIT"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="6o0-dA-4O6"/>
+                                <include reference="D1S-gZ-h6r"/>
+                                <include reference="Fux-LD-8cn"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="探店" id="RLZ-Nk-CUQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M6B-f3-e4Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-547.5" y="807.75"/>
+        </scene>
+        <!--Private Enjoy View Controller-->
+        <scene sceneID="obO-US-3zu">
+            <objects>
+                <viewController id="14F-Jx-lpS" customClass="FBPrivateEnjoyViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mUd-QR-RFC"/>
+                        <viewControllerLayoutGuide type="bottom" id="k8l-Ta-YrB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ylE-b9-d6U">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Nxo-JS-zkZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NKl-2k-t6s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="172.5" y="807.75"/>
+        </scene>
+        <!--My View Controller-->
+        <scene sceneID="6Zm-ru-QDP">
+            <objects>
+                <viewController id="SZO-av-wSz" customClass="FBMyViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="itt-O7-XvP"/>
+                        <viewControllerLayoutGuide type="bottom" id="Z4M-KW-ted"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="c9c-u2-cyE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="qgg-3T-Vo4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lpv-2s-ccS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="940.5" y="807.75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="My" width="28" height="28"/>
+        <image name="MySelected" width="32" height="32"/>
+        <image name="PrivateEnjoy" width="32" height="32"/>
+        <image name="PrivateEnjoySelected" width="32" height="32"/>
+        <image name="SeekRestaurant" width="32" height="32"/>
+        <image name="SeekRestaurantSelected" width="32" height="32"/>
+        <image name="cute.gif" width="122" height="79"/>
+        <image name="reconmmend" width="32" height="32"/>
+        <image name="reconmmendSelected" width="26" height="26"/>
+    </resources>
+</document>

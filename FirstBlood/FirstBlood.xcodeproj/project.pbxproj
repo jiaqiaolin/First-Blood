@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF05540D1CC5249100B608E6 /* FBPrivateEnjoyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF05540B1CC5249100B608E6 /* FBPrivateEnjoyViewController.m */; };
+		BF05540E1CC5249100B608E6 /* FBPrivateEnjoyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF05540C1CC5249100B608E6 /* FBPrivateEnjoyViewController.xib */; };
+		BF0554181CC5258F00B608E6 /* FBMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0554161CC5258F00B608E6 /* FBMyViewController.m */; };
+		BF0554191CC5258F00B608E6 /* FBMyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF0554171CC5258F00B608E6 /* FBMyViewController.xib */; };
+		BF05541D1CC528A000B608E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF05541C1CC528A000B608E6 /* Assets.xcassets */; };
+		BF232C3B1CC5469500C07375 /* FBNavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF232C3A1CC5469500C07375 /* FBNavigationView.m */; };
+		BF232C3F1CC5EBD700C07375 /* FBHttpsServer.m in Sources */ = {isa = PBXBuildFile; fileRef = BF232C3E1CC5EBD700C07375 /* FBHttpsServer.m */; };
+		BF2FA6DF1CC60B7C0040EB47 /* cute.gif in Resources */ = {isa = PBXBuildFile; fileRef = BF2FA6DE1CC60B7C0040EB47 /* cute.gif */; };
+		BF96E2151CC4F84F00177705 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96E2141CC4F84F00177705 /* main.m */; };
+		BF96E2181CC4F84F00177705 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96E2171CC4F84F00177705 /* AppDelegate.m */; };
+		BF96E21E1CC4F84F00177705 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF96E21C1CC4F84F00177705 /* Main.storyboard */; };
+		BF96E2211CC4F84F00177705 /* FirstBlood.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF96E21F1CC4F84F00177705 /* FirstBlood.xcdatamodeld */; };
+		BF96E2261CC4F84F00177705 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF96E2241CC4F84F00177705 /* LaunchScreen.storyboard */; };
+		BF96E2311CC4F85000177705 /* FirstBloodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96E2301CC4F85000177705 /* FirstBloodTests.m */; };
+		BF96E23C1CC4F85000177705 /* FirstBloodUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96E23B1CC4F85000177705 /* FirstBloodUITests.m */; };
+		BF96E24B1CC4F8B400177705 /* FBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96E24A1CC4F8B400177705 /* FBBaseViewController.m */; };
+		BF96E24E1CC4FA5800177705 /* FBBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96E24D1CC4FA5800177705 /* FBBaseNavigationController.m */; };
+		BF96E2561CC501A500177705 /* FBConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96E2551CC501A500177705 /* FBConstant.m */; };
+		BF96E26C1CC5095400177705 /* FBSeekRestaurantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96E26A1CC5095400177705 /* FBSeekRestaurantViewController.m */; };
+		BF96E26D1CC5095400177705 /* FBSeekRestaurantViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF96E26B1CC5095400177705 /* FBSeekRestaurantViewController.xib */; };
+		BF96E2711CC5097400177705 /* FBRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96E26F1CC5097400177705 /* FBRecommendViewController.m */; };
+		BF96E2721CC5097400177705 /* FBRecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF96E2701CC5097400177705 /* FBRecommendViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF96E22D1CC4F85000177705 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF96E2081CC4F84F00177705 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF96E20F1CC4F84F00177705;
+			remoteInfo = FirstBlood;
+		};
+		BF96E2381CC4F85000177705 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF96E2081CC4F84F00177705 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF96E20F1CC4F84F00177705;
+			remoteInfo = FirstBlood;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF05540A1CC5249100B608E6 /* FBPrivateEnjoyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBPrivateEnjoyViewController.h; sourceTree = "<group>"; };
+		BF05540B1CC5249100B608E6 /* FBPrivateEnjoyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBPrivateEnjoyViewController.m; sourceTree = "<group>"; };
+		BF05540C1CC5249100B608E6 /* FBPrivateEnjoyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FBPrivateEnjoyViewController.xib; sourceTree = "<group>"; };
+		BF0554151CC5258F00B608E6 /* FBMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBMyViewController.h; path = FirstBlood/My/FBMyViewController.h; sourceTree = SOURCE_ROOT; };
+		BF0554161CC5258F00B608E6 /* FBMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBMyViewController.m; path = FirstBlood/My/FBMyViewController.m; sourceTree = SOURCE_ROOT; };
+		BF0554171CC5258F00B608E6 /* FBMyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FBMyViewController.xib; path = FirstBlood/My/FBMyViewController.xib; sourceTree = SOURCE_ROOT; };
+		BF05541C1CC528A000B608E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF232C391CC5469500C07375 /* FBNavigationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBNavigationView.h; sourceTree = "<group>"; };
+		BF232C3A1CC5469500C07375 /* FBNavigationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBNavigationView.m; sourceTree = "<group>"; };
+		BF232C3D1CC5EBD700C07375 /* FBHttpsServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBHttpsServer.h; sourceTree = "<group>"; };
+		BF232C3E1CC5EBD700C07375 /* FBHttpsServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBHttpsServer.m; sourceTree = "<group>"; };
+		BF2FA6DE1CC60B7C0040EB47 /* cute.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = cute.gif; path = ../PrivateEnjoy/cute.gif; sourceTree = "<group>"; };
+		BF96E2101CC4F84F00177705 /* FirstBlood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstBlood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF96E2141CC4F84F00177705 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF96E2161CC4F84F00177705 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF96E2171CC4F84F00177705 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF96E21D1CC4F84F00177705 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF96E2201CC4F84F00177705 /* FirstBlood.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FirstBlood.xcdatamodel; sourceTree = "<group>"; };
+		BF96E2251CC4F84F00177705 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF96E2271CC4F84F00177705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF96E22C1CC4F85000177705 /* FirstBloodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstBloodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF96E2301CC4F85000177705 /* FirstBloodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstBloodTests.m; sourceTree = "<group>"; };
+		BF96E2321CC4F85000177705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF96E2371CC4F85000177705 /* FirstBloodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstBloodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF96E23B1CC4F85000177705 /* FirstBloodUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstBloodUITests.m; sourceTree = "<group>"; };
+		BF96E23D1CC4F85000177705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF96E2491CC4F8B400177705 /* FBBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBBaseViewController.h; sourceTree = "<group>"; };
+		BF96E24A1CC4F8B400177705 /* FBBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBBaseViewController.m; sourceTree = "<group>"; };
+		BF96E24C1CC4FA5800177705 /* FBBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBBaseNavigationController.h; sourceTree = "<group>"; };
+		BF96E24D1CC4FA5800177705 /* FBBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBBaseNavigationController.m; sourceTree = "<group>"; };
+		BF96E2541CC501A500177705 /* FBConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBConstant.h; sourceTree = "<group>"; };
+		BF96E2551CC501A500177705 /* FBConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBConstant.m; sourceTree = "<group>"; };
+		BF96E2571CC5024C00177705 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BF96E2691CC5095400177705 /* FBSeekRestaurantViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSeekRestaurantViewController.h; sourceTree = "<group>"; };
+		BF96E26A1CC5095400177705 /* FBSeekRestaurantViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSeekRestaurantViewController.m; sourceTree = "<group>"; };
+		BF96E26B1CC5095400177705 /* FBSeekRestaurantViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FBSeekRestaurantViewController.xib; sourceTree = "<group>"; };
+		BF96E26E1CC5097400177705 /* FBRecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRecommendViewController.h; sourceTree = "<group>"; };
+		BF96E26F1CC5097400177705 /* FBRecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRecommendViewController.m; sourceTree = "<group>"; };
+		BF96E2701CC5097400177705 /* FBRecommendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FBRecommendViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF96E20D1CC4F84F00177705 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF96E2291CC4F85000177705 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF96E2341CC4F85000177705 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF05540F1CC5251200B608E6 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				BF0554151CC5258F00B608E6 /* FBMyViewController.h */,
+				BF0554161CC5258F00B608E6 /* FBMyViewController.m */,
+				BF0554171CC5258F00B608E6 /* FBMyViewController.xib */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		BF232C3C1CC5EBB900C07375 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				BF232C3D1CC5EBD700C07375 /* FBHttpsServer.h */,
+				BF232C3E1CC5EBD700C07375 /* FBHttpsServer.m */,
+			);
+			name = Tools;
+			path = Base;
+			sourceTree = "<group>";
+		};
+		BF96E2071CC4F84F00177705 = {
+			isa = PBXGroup;
+			children = (
+				BF96E2121CC4F84F00177705 /* FirstBlood */,
+				BF96E22F1CC4F85000177705 /* FirstBloodTests */,
+				BF96E23A1CC4F85000177705 /* FirstBloodUITests */,
+				BF96E2111CC4F84F00177705 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF96E2111CC4F84F00177705 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF96E2101CC4F84F00177705 /* FirstBlood.app */,
+				BF96E22C1CC4F85000177705 /* FirstBloodTests.xctest */,
+				BF96E2371CC4F85000177705 /* FirstBloodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF96E2121CC4F84F00177705 /* FirstBlood */ = {
+			isa = PBXGroup;
+			children = (
+				BF96E2161CC4F84F00177705 /* AppDelegate.h */,
+				BF96E2171CC4F84F00177705 /* AppDelegate.m */,
+				BF96E2531CC4FD6E00177705 /* Recommend */,
+				BF96E2591CC5052300177705 /* SeekRestaurant */,
+				BF96E2641CC5059500177705 /* PrivateEnjoy */,
+				BF05540F1CC5251200B608E6 /* My */,
+				BF96E2581CC5045A00177705 /* ConstantAndHeader */,
+				BF96E24F1CC4FA6100177705 /* Base */,
+				BF232C3C1CC5EBB900C07375 /* Tools */,
+				BF96E2131CC4F84F00177705 /* Supporting Files */,
+			);
+			path = FirstBlood;
+			sourceTree = "<group>";
+		};
+		BF96E2131CC4F84F00177705 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF05541C1CC528A000B608E6 /* Assets.xcassets */,
+				BF96E21C1CC4F84F00177705 /* Main.storyboard */,
+				BF96E2241CC4F84F00177705 /* LaunchScreen.storyboard */,
+				BF96E2271CC4F84F00177705 /* Info.plist */,
+				BF96E21F1CC4F84F00177705 /* FirstBlood.xcdatamodeld */,
+				BF96E2141CC4F84F00177705 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF96E22F1CC4F85000177705 /* FirstBloodTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF96E2301CC4F85000177705 /* FirstBloodTests.m */,
+				BF96E2321CC4F85000177705 /* Info.plist */,
+			);
+			path = FirstBloodTests;
+			sourceTree = "<group>";
+		};
+		BF96E23A1CC4F85000177705 /* FirstBloodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF96E23B1CC4F85000177705 /* FirstBloodUITests.m */,
+				BF96E23D1CC4F85000177705 /* Info.plist */,
+			);
+			path = FirstBloodUITests;
+			sourceTree = "<group>";
+		};
+		BF96E24F1CC4FA6100177705 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BF96E2491CC4F8B400177705 /* FBBaseViewController.h */,
+				BF96E24A1CC4F8B400177705 /* FBBaseViewController.m */,
+				BF96E24C1CC4FA5800177705 /* FBBaseNavigationController.h */,
+				BF96E24D1CC4FA5800177705 /* FBBaseNavigationController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		BF96E2531CC4FD6E00177705 /* Recommend */ = {
+			isa = PBXGroup;
+			children = (
+				BF96E26E1CC5097400177705 /* FBRecommendViewController.h */,
+				BF96E26F1CC5097400177705 /* FBRecommendViewController.m */,
+				BF96E2701CC5097400177705 /* FBRecommendViewController.xib */,
+				BF232C391CC5469500C07375 /* FBNavigationView.h */,
+				BF232C3A1CC5469500C07375 /* FBNavigationView.m */,
+			);
+			path = Recommend;
+			sourceTree = "<group>";
+		};
+		BF96E2581CC5045A00177705 /* ConstantAndHeader */ = {
+			isa = PBXGroup;
+			children = (
+				BF96E2541CC501A500177705 /* FBConstant.h */,
+				BF96E2551CC501A500177705 /* FBConstant.m */,
+				BF96E2571CC5024C00177705 /* PrefixHeader.pch */,
+			);
+			name = ConstantAndHeader;
+			sourceTree = "<group>";
+		};
+		BF96E2591CC5052300177705 /* SeekRestaurant */ = {
+			isa = PBXGroup;
+			children = (
+				BF2FA6DE1CC60B7C0040EB47 /* cute.gif */,
+				BF96E2691CC5095400177705 /* FBSeekRestaurantViewController.h */,
+				BF96E26A1CC5095400177705 /* FBSeekRestaurantViewController.m */,
+				BF96E26B1CC5095400177705 /* FBSeekRestaurantViewController.xib */,
+			);
+			path = SeekRestaurant;
+			sourceTree = "<group>";
+		};
+		BF96E2641CC5059500177705 /* PrivateEnjoy */ = {
+			isa = PBXGroup;
+			children = (
+				BF05540A1CC5249100B608E6 /* FBPrivateEnjoyViewController.h */,
+				BF05540B1CC5249100B608E6 /* FBPrivateEnjoyViewController.m */,
+				BF05540C1CC5249100B608E6 /* FBPrivateEnjoyViewController.xib */,
+			);
+			path = PrivateEnjoy;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF96E20F1CC4F84F00177705 /* FirstBlood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF96E2401CC4F85000177705 /* Build configuration list for PBXNativeTarget "FirstBlood" */;
+			buildPhases = (
+				BF96E20C1CC4F84F00177705 /* Sources */,
+				BF96E20D1CC4F84F00177705 /* Frameworks */,
+				BF96E20E1CC4F84F00177705 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirstBlood;
+			productName = FirstBlood;
+			productReference = BF96E2101CC4F84F00177705 /* FirstBlood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF96E22B1CC4F85000177705 /* FirstBloodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF96E2431CC4F85000177705 /* Build configuration list for PBXNativeTarget "FirstBloodTests" */;
+			buildPhases = (
+				BF96E2281CC4F85000177705 /* Sources */,
+				BF96E2291CC4F85000177705 /* Frameworks */,
+				BF96E22A1CC4F85000177705 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF96E22E1CC4F85000177705 /* PBXTargetDependency */,
+			);
+			name = FirstBloodTests;
+			productName = FirstBloodTests;
+			productReference = BF96E22C1CC4F85000177705 /* FirstBloodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF96E2361CC4F85000177705 /* FirstBloodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF96E2461CC4F85000177705 /* Build configuration list for PBXNativeTarget "FirstBloodUITests" */;
+			buildPhases = (
+				BF96E2331CC4F85000177705 /* Sources */,
+				BF96E2341CC4F85000177705 /* Frameworks */,
+				BF96E2351CC4F85000177705 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF96E2391CC4F85000177705 /* PBXTargetDependency */,
+			);
+			name = FirstBloodUITests;
+			productName = FirstBloodUITests;
+			productReference = BF96E2371CC4F85000177705 /* FirstBloodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF96E2081CC4F84F00177705 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "林佳乔";
+				TargetAttributes = {
+					BF96E20F1CC4F84F00177705 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					BF96E22B1CC4F85000177705 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BF96E20F1CC4F84F00177705;
+					};
+					BF96E2361CC4F85000177705 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BF96E20F1CC4F84F00177705;
+					};
+				};
+			};
+			buildConfigurationList = BF96E20B1CC4F84F00177705 /* Build configuration list for PBXProject "FirstBlood" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF96E2071CC4F84F00177705;
+			productRefGroup = BF96E2111CC4F84F00177705 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF96E20F1CC4F84F00177705 /* FirstBlood */,
+				BF96E22B1CC4F85000177705 /* FirstBloodTests */,
+				BF96E2361CC4F85000177705 /* FirstBloodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF96E20E1CC4F84F00177705 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF05540E1CC5249100B608E6 /* FBPrivateEnjoyViewController.xib in Resources */,
+				BF96E2261CC4F84F00177705 /* LaunchScreen.storyboard in Resources */,
+				BF2FA6DF1CC60B7C0040EB47 /* cute.gif in Resources */,
+				BF96E26D1CC5095400177705 /* FBSeekRestaurantViewController.xib in Resources */,
+				BF96E21E1CC4F84F00177705 /* Main.storyboard in Resources */,
+				BF05541D1CC528A000B608E6 /* Assets.xcassets in Resources */,
+				BF0554191CC5258F00B608E6 /* FBMyViewController.xib in Resources */,
+				BF96E2721CC5097400177705 /* FBRecommendViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF96E22A1CC4F85000177705 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF96E2351CC4F85000177705 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF96E20C1CC4F84F00177705 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF96E2181CC4F84F00177705 /* AppDelegate.m in Sources */,
+				BF96E26C1CC5095400177705 /* FBSeekRestaurantViewController.m in Sources */,
+				BF232C3F1CC5EBD700C07375 /* FBHttpsServer.m in Sources */,
+				BF96E2151CC4F84F00177705 /* main.m in Sources */,
+				BF96E2211CC4F84F00177705 /* FirstBlood.xcdatamodeld in Sources */,
+				BF0554181CC5258F00B608E6 /* FBMyViewController.m in Sources */,
+				BF96E24B1CC4F8B400177705 /* FBBaseViewController.m in Sources */,
+				BF96E2711CC5097400177705 /* FBRecommendViewController.m in Sources */,
+				BF05540D1CC5249100B608E6 /* FBPrivateEnjoyViewController.m in Sources */,
+				BF232C3B1CC5469500C07375 /* FBNavigationView.m in Sources */,
+				BF96E2561CC501A500177705 /* FBConstant.m in Sources */,
+				BF96E24E1CC4FA5800177705 /* FBBaseNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF96E2281CC4F85000177705 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF96E2311CC4F85000177705 /* FirstBloodTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF96E2331CC4F85000177705 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF96E23C1CC4F85000177705 /* FirstBloodUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF96E22E1CC4F85000177705 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF96E20F1CC4F84F00177705 /* FirstBlood */;
+			targetProxy = BF96E22D1CC4F85000177705 /* PBXContainerItemProxy */;
+		};
+		BF96E2391CC4F85000177705 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF96E20F1CC4F84F00177705 /* FirstBlood */;
+			targetProxy = BF96E2381CC4F85000177705 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF96E21C1CC4F84F00177705 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF96E21D1CC4F84F00177705 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF96E2241CC4F84F00177705 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF96E2251CC4F84F00177705 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF96E23E1CC4F85000177705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF96E23F1CC4F85000177705 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF96E2411CC4F85000177705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/linjiaqiao/Documents/小码哥 - 练习/FirstBlood/FirstBlood/PrefixHeader.pch";
+				INFOPLIST_FILE = FirstBlood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.FirstBlood";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF96E2421CC4F85000177705 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/linjiaqiao/Documents/小码哥 - 练习/FirstBlood/FirstBlood/PrefixHeader.pch";
+				INFOPLIST_FILE = FirstBlood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.FirstBlood";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF96E2441CC4F85000177705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FirstBloodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.FirstBloodTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstBlood.app/FirstBlood";
+			};
+			name = Debug;
+		};
+		BF96E2451CC4F85000177705 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FirstBloodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.FirstBloodTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstBlood.app/FirstBlood";
+			};
+			name = Release;
+		};
+		BF96E2471CC4F85000177705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FirstBloodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.FirstBloodUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FirstBlood;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BF96E2481CC4F85000177705 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FirstBloodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.FirstBloodUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FirstBlood;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF96E20B1CC4F84F00177705 /* Build configuration list for PBXProject "FirstBlood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF96E23E1CC4F85000177705 /* Debug */,
+				BF96E23F1CC4F85000177705 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF96E2401CC4F85000177705 /* Build configuration list for PBXNativeTarget "FirstBlood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF96E2411CC4F85000177705 /* Debug */,
+				BF96E2421CC4F85000177705 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF96E2431CC4F85000177705 /* Build configuration list for PBXNativeTarget "FirstBloodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF96E2441CC4F85000177705 /* Debug */,
+				BF96E2451CC4F85000177705 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF96E2461CC4F85000177705 /* Build configuration list for PBXNativeTarget "FirstBloodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF96E2471CC4F85000177705 /* Debug */,
+				BF96E2481CC4F85000177705 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BF96E21F1CC4F84F00177705 /* FirstBlood.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BF96E2201CC4F84F00177705 /* FirstBlood.xcdatamodel */,
+			);
+			currentVersion = BF96E2201CC4F84F00177705 /* FirstBlood.xcdatamodel */;
+			path = FirstBlood.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BF96E2081CC4F84F00177705 /* Project object */;
+}

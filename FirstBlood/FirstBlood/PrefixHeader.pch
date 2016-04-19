@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  FirstBlood
+//
+//  Created by 林佳乔 on 16/4/18.
+//  Copyright © 2016年 林佳乔. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+/**
+ *  常量
+ */
+#import "FBConstant.h"
+
+#define FB_RANDOM_COLOR [UIColor colorWithRed:arc4random()%256/256. green:arc4random()%256/256. blue:arc4random()%256/256. alpha:1.]
+#define screen
+#endif /* PrefixHeader_pch */
